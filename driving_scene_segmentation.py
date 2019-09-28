@@ -411,10 +411,3 @@ print('pixel accuracy: %.4f'%np.mean(acc))
 print('mean class IoU: %.4f'%np.mean(class_iou))
 print('class IoU:')
 print(tabulate([class_iou], headers=LABEL_NAMES[[0,1,2,5,6,7,8,9,11,13]]))
-
-"""Can you make it better?
-
-## Acknowledgements
-
-The contents of this tutorial is based on and inspired by the work of [TensorFlow team](https://www.tensorflow.org), and [MIT Human-Centered AI team](https://hcai.mit.edu), and individual pieces referenced in the [MIT Deep Learning](https://deeplearning.mit.edu) course slides.
-"""
